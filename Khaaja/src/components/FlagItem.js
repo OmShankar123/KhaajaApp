@@ -14,7 +14,7 @@ const FlagItem = ({code, name, dial_code, onPress}) => {
       />
       <Text style={styles.flagText}>{dial_code}</Text>
       <Text style={styles.flagText}>{name}</Text>
-    </TouchableOpacity>
+    </TouchableOpacity > 
   );
 };
 

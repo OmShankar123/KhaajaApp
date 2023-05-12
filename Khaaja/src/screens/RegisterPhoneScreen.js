@@ -70,7 +70,7 @@ const RegisterPhoneScreen = (props) => {
           nativeEvent: {
             layout: {y},
           },
-        }) => setInputsContainerY(y)}>
+        }) => setInputsContainerY(y)}> 
         <TouchableOpacity
           style={styles.countryListContainer}
           onPress={() => setIsDropdownOpen(!isDropdownOpen)}>
